@@ -1,0 +1,26 @@
+Emotion_Detection_CNN-main/
+│
+├── emotion_classification_cnn.py      # Converted and modified from the Jupyter notebook
+├── main.py                            # Modified to integrate the CNN model
+├── haarcascade_frontalface_default.xml
+│
+├── FER/
+│   └── images/
+│       ├── train/
+│       │   ├── angry/
+│       │   ├── disgust/
+│       │   ├── fear/
+│       │   ├── happy/
+│       │   ├── neutral/
+│       │   ├── sad/
+│       │   └── surprise/
+│       └── validation/
+│           ├── angry/
+│           ├── disgust/
+│           ├── fear/
+│           ├── happy/
+│           ├── neutral/
+│           ├── sad/
+│           └── surprise/
+└── models/
+    └── saved_model.h5                 # Directory for saving the trained model

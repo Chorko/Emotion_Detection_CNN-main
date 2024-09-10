@@ -1,0 +1,12 @@
+numpy
+opencv-python
+tensorflow
+keras
+pyttsx3
+matplotlib
+h5py
+scipy
+scikit-learn
+optuna
+keras-tuner 
+ray
