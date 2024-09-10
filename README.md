@@ -106,7 +106,7 @@ Make sure the `haarcascade_frontalface_default.xml` file is in the same director
 
 ## Notes
 
-- **Training time**: Depending on your hardware, training the model might take some time. Using a GPU is recommended for faster processing.
+- **Training time**: Depending on your hardware, training the model might take some time. Using a GPU is recommended for faster processing. I would recommend using Google Colab for training the model.
 - **Saving models**: The trained models will be saved in the `models/` directory.
 
 ---
