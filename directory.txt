@@ -1,12 +1,12 @@
 Emotion_Detection_CNN-main/
 │
-├── emotion_classification_cnn.py      # Converted and modified from the Jupyter notebook
-├── main.py                            # Modified to integrate the CNN model
-├── haarcascade_frontalface_default.xml
+├── emotion_classification_cnn.py       # Script for training the CNN model
+├── main.py                             # Main script to run emotion detection
+├── haarcascade_frontalface_default.xml # Pre-trained model for face detection
 │
 ├── FER/
 │   └── images/
-│       ├── train/
+│       ├── train/                      # Training dataset (FER dataset)
 │       │   ├── angry/
 │       │   ├── disgust/
 │       │   ├── fear/
@@ -14,7 +14,7 @@ Emotion_Detection_CNN-main/
 │       │   ├── neutral/
 │       │   ├── sad/
 │       │   └── surprise/
-│       └── validation/
+│       └── validation/                 # Validation dataset (FER dataset)
 │           ├── angry/
 │           ├── disgust/
 │           ├── fear/
@@ -23,4 +23,5 @@ Emotion_Detection_CNN-main/
 │           ├── sad/
 │           └── surprise/
 └── models/
-    └── saved_model.h5                 # Directory for saving the trained model
+    └── saved_model.keras               # Placeholder for the final trained model
+    └── best_model.keras                # Placeholder for the best model (checkpoint)
